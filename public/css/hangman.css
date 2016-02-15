@@ -25,11 +25,16 @@ body {
 
 }
 
+/*Click a Letter Sentence*/
+
 p {
 	color: #337AB7;
 	font-weight: lighter;
 	font-size: 40px;
+	clear: both;
 }
+
+/*Black Footer Box*/
 
 footer {
 	width: 900px;
@@ -42,13 +47,20 @@ footer {
 	font-weight: bolder;
 	font-size: 36px;
 	color: #337AB7;
+	text-align: center;
+	padding-top: 20px;
 
 }
+
+/*New Game Button*/
+
 .new-game{
 	position: relative;
 	left: 690px;
 	top: 330px;
 }
+
+/*Clickable Div Box*/
 
 .letterbox {
 	position: relative;
@@ -56,9 +68,10 @@ footer {
 
 }
 
-.letter {
+/*Clickable Letters*/
+
+.linkletter {
 	font-size: 36px;
 	font-weight: lighter;
 	letter-spacing: 5px;
-	display: inline;
 }
